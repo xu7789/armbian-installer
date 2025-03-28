@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       download_url:
-        description: '请输入下载地址(扩展名 .img.gz/.img.xz/.img.zip)'
+        description: 'https://github.com/miaoermua/CatWrt/releases/download/v24.9/CatWrt.v24.9.amd64-ext4-combined-efi.img.gz(扩展名 .img.gz/.img.xz/.img.zip)'
         required: true
         default: 'https://default.example.com/file.img.gz'
 
